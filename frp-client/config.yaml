@@ -19,12 +19,6 @@ arch:
   - armv7
   - i386
 options:
-  serverAddr: "example.com"
-  serverPort: 7000
-  authToken: "123456789"
   customDomain: "example.com"
 schema:
-  serverAddr: str
-  serverPort: int
-  authToken: str
   customDomain: str
